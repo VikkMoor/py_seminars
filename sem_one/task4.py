@@ -7,6 +7,6 @@ elif a > b:
     print("So, let's calculate the rentability (profit/revenue)")
     print(f'The rentability value = {round(((a - b) / a), 1)}')
     c = int(input("Indicate the number of employees: "))
-    print(f'Company profit per employee: {round((a-b)/c, 1)}')
+    print(f'Company profit per employee: {round((a - b) / c, 1)}')
 else:
     print("Company at breakeven point.")
