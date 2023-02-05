@@ -1,3 +1,4 @@
+"""Task bout sportsman"""
 a = int(input('Enter the first day distance: '))
 b = int(input('Enter the limit of km: '))
 c = 1
