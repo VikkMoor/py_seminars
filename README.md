@@ -1,6 +1,6 @@
 # py_seminars
 
-SEMINAR_!:
+SEMINAR_1:
 * task1: just playing with variables; 
 * task2: seconds to minutes and hours;
 * task3: input n, output n + nn + nnn;
