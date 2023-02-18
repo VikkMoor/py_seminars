@@ -19,7 +19,7 @@ SEMINAR_3:
 * task2: insert (rating);
 * task3: goods (name, price...) with tuples;
 
-SEMINAR_5:
+SEMINAR_5 (recursion):
 * task1: simple calculator for 2 numbers (+, -, *, /); 
 * task2: count even and odd digits in the number;
 * task3: reverse number;
