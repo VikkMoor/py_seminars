@@ -18,3 +18,10 @@ SEMINAR_3:
 * task1: month & season (list and dictionary); 
 * task2: insert (rating);
 * task3: goods (name, price...) with tuples;
+
+SEMINAR_5:
+* task1: simple calculator; 
+* task2: count even and odd digits in the number;
+* task3: reverse number;
+* task4: task bout equality 1+2+3...+n = n(n+1)/2;
+* task5: guessing the number 1...100 with 10 tries;
