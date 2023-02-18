@@ -1,9 +1,9 @@
-"""Count even and odd digits in a number"""
+"""Count even and odd digits in the number"""
 
 
 def nums_count(num, even=0, odd=0):
     if num == 0:
-        return f'Odd numbers - {odd}, Even numbers - {even}'
+        return f'Odd digits - {odd}, Even digits - {even}'
     if num % 2 == 0:
         even += 1
         num = num // 10
@@ -20,4 +20,4 @@ try:
 except ValueError:
     print(f'Enter a NUMBER, please: ')
     n = int(input())
-print(f'In number {n} {nums_count(n)}')
+print(f'In the number {n} {nums_count(n)}')
