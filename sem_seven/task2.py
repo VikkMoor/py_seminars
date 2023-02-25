@@ -20,8 +20,7 @@ class Road:
         w = self.weight
         dep = self.depth
         all_mass = lens * wid * w * dep
-        return print(
-            f"Масса асфальта\n {lens}м * {wid}м * {w}кг * {dep}м = {round(all_mass)}кг = {round(all_mass / 1000)}т")
+        return print(f"Масса асфальта:\n {lens}м * {wid}м * {w}кг * {dep}м = {round(all_mass)}кг = {round(all_mass / 1000)}т")
 
 
 r = Road(20, 5000, 25, 0.05)
