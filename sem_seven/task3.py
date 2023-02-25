@@ -32,7 +32,7 @@ class Position(Worker):
         return f'Worker: {self.get_full_name()}, her/his position: {self.position}, her/his income: {self.get_total_income()}'
 
 
-examp = Position('Sophie-Ellis', 'Bextor', 'sexy_singer', 50000, 3000)
-print(examp.get_full_name())
-print(examp.get_total_income())
-print(examp)  # (cuz of __str__)
+exam = Position('Sophie-Ellis', 'Bextor', 'sexy_singer', 50000, 3000)
+print(exam.get_full_name())
+print(exam.get_total_income())
+print(exam)  # (cuz of __str__)
