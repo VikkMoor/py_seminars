@@ -1,27 +1,28 @@
-"""Task bout Road"""
+"""Task bout Road
+Implement a public method for calculating the mass of asphalt required for pavement.
+Use the formula: (length) * (width) * (mass of asphalt to cover one square
+meters of the road with depth of asphalt = 1 cm) * number of depth of asphalt pavement (in meters)"""
 
 
 class Road:
+    _length = 0
+    _width = 0
 
-    # Defining the init function
-    def __init__(self, _length, _width):
+    def __init__(self, _length, _width, weight, depth):
         self._length = _length
         self._width = _width
+        self.weight = weight
+        self.depth = depth
 
-    # Defining the measurement function - mass
-    def measurement_mass(self):
-        return self._length * self._width
-
-
-# Defining the second class - Calculation
-class Calculation(Road):
-
-    # Defining the init function
-    def __init__(self, _length, _width, volume):
-        super().__init__(_length, _width)
-        self.volume = volume
+    def mass(self):
+        lens = self._length
+        wid = self._width
+        w = self.weight
+        dep = self.depth
+        all_mass = lens * wid * w * dep
+        return print(
+            f"Масса асфальта\n {lens}м * {wid}м * {w}кг * {dep}м = {round(all_mass)}кг = {round(all_mass / 1000)}т")
 
 
-# Checking if everything runs
-result = Calculation(25, 10000, 125)
-print(result.measurement_mass())
+r = Road(20, 5000, 25, 0.05)
+r.mass()
