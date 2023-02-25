@@ -1,4 +1,4 @@
-"""Task bout Road
+"""Task bout Road class.
 Implement a public method for calculating the mass of asphalt required for pavement.
 Use the formula: (length) * (width) * (mass of asphalt to cover one square
 meters of the road with depth of asphalt = 1 cm) * number of depth of asphalt pavement (in meters)"""
