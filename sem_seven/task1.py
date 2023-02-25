@@ -5,7 +5,8 @@ from time import sleep
 class TrafficLight:
     __colour = ['red', 'yellow', 'green']
 
-    def running(self):
+    @staticmethod
+    def running():
         i = 0
         while i < 3:
             print(f' Please wait... \n'
