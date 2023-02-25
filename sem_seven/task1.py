@@ -2,11 +2,9 @@
 from time import sleep
 
 
-# Starting with the class
 class TrafficLight:
     __colour = ['red', 'yellow', 'green']
 
-    # Defining the core function
     def running(self):
         i = 0
         while i < 3:
