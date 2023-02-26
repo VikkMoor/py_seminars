@@ -25,3 +25,10 @@ SEMINAR_5 (recursion):
 * task3: reverse number;
 * task4: task bout equality 1+2+3...+n = n(n+1)/2;
 * task5: guessing the number 1...100 with 10 tries;
+
+SEMINAR_7 (OOP):
+* task1: task bout trafficlight); 
+* task2: task bout Road class (calculating the mass of asphalt required for pavement);
+* task3: task bout Worker class (attributes "name", "surname", "position", "income");
+* task4: task bout class Matrix (make an overload of the add() method for adding two matrices);
+* task5: task bout exception class (should check the list for having only numbers);
