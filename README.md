@@ -32,3 +32,8 @@ SEMINAR_7 (OOP):
 * task3: task bout Worker class (attributes "name", "surname", "position", "income");
 * task4: task bout class Matrix (make an overload of the add() method for adding two matrices);
 * task5: task bout exception class (should check the list for having only numbers);
+
+SEMINAR_8 (keep learning OOP):
+* task1: (CSV module) write a script for sampling of data from 3 txt files and generating a new "reporting" file in CSV format; 
+* task2: (json module) write a script to automate filling file "orders.json" with data;
+* task3: (yaml module) write a script to automate filling file yaml format with data;
